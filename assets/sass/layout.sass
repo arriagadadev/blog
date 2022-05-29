@@ -1,0 +1,23 @@
+.centered
+    display: flex
+    justify-content: center
+.dark-mode-switch
+    position: absolute
+    right: 10px
+    top: 0
+.hide-mobile
+    @media (max-width: 405px)
+        display: none
+.hide-desktop
+    @media (min-width: 405px)
+        display: none
+.sticky-top
+    position: sticky
+    top: 10px
+.navigation-items
+    .v-list-item-group
+        .v-list-item
+            transition-duration: 0.5s
+        .v-list-item--active
+            font-weight: 600
+            padding-left: 50px

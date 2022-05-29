@@ -2,7 +2,7 @@
   <v-app dark>
     <v-main>
       <Header />
-      <v-container>
+      <v-container fluid>
         <Nuxt />
       </v-container>
     </v-main>
@@ -13,15 +13,10 @@
 </template>
 
 <script>
-import Header from '../components/Header'
+import Header from '../components/layout/Header'
 
 export default {
   name: 'DefaultLayout',
-  components: {Header},
-  data() {
-    return {
-
-    }
-  },
+  components: { Header },
 }
 </script>

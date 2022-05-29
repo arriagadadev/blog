@@ -1,8 +1,10 @@
 <template>
-  <div class="typewriter">
-    <h1>
-      {{ label }}
-    </h1>
+  <div class="centered">
+    <div class="typewriter">
+      <h1>
+        {{ label }}
+      </h1>
+    </div>
   </div>
 </template>
 
